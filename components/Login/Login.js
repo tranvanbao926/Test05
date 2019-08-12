@@ -48,7 +48,7 @@ export default class Login extends Component {
                 <View style={styles.container}>
                     <TouchableOpacity style={styles.btnLoginStyle}
                         onPress={() => {
-                            navigate('Explore')
+                            navigate('Dashboard')
                         }}>
                         <Text style={styles.txt1}>LOGIN</Text>
                     </TouchableOpacity>
